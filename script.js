@@ -10,6 +10,6 @@ noBtn.addEventListener("mouseover", () => {
 
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "YAY!!! 💖 I love you YASHITA 😍";
-  image.src = "yes.gif";
+  image.src = "mindblown.gif";
   document.querySelector(".buttons").style.display = "none";
 });
