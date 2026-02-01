@@ -12,6 +12,6 @@ noBtn.addEventListener("mouseover", () => {
 yesBtn.addEventListener("click", () => {
     question.innerHTML = "YAY!!! 💖🥰 I love you YASHITA!";
     image.src =
-      "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2JuYjZyOGszdXlzMnN1dWtiNXYyZ3Jscmpvb3kydjMwbnhxYjlqayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/2rqEdFfkMzXmo/giphy.gif";
+      "file:///C:/Users/Hp/Downloads/yashita/v/mind-blown-boom.gif";
     document.querySelector(".buttons").style.display = "none";
 });
