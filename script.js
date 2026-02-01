@@ -9,6 +9,6 @@ noBtn.addEventListener("mouseover", () => {
 });
 
 yesBtn.addEventListener("click", () => {
-    question.innerHTML = "YAY!!! 💖🥰 I love you YASHITA!";
+    question.innerHTML = "Will You be my Valintine YAY!!! 💖🥰 ";
     document.querySelector(".buttons").style.display = "none";
 });
