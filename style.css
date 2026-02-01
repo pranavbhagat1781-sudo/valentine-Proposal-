@@ -1,63 +1,40 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
 body {
-    height: 100vh;
-    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  font-family: Arial, sans-serif;
 }
 
 .container {
-    background: white;
-    padding: 35px 45px;
-    border-radius: 25px;
-    text-align: center;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+  background: white;
+  padding: 40px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0,0,0,.25);
 }
 
-.bear {
-    width: 130px;
-    margin-bottom: 20px;
-}
-
-h1 {
-    font-size: 22px;
-    margin-bottom: 25px;
-    color: #333;
-}
-
-.buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+img {
+  width: 150px;
+  margin-bottom: 20px;
 }
 
 button {
-    padding: 12px 28px;
-    border-radius: 30px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
+  padding: 12px 30px;
+  border-radius: 25px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 #yesBtn {
-    background: #ff4d6d;
-    color: white;
-}
-
-#yesBtn:hover {
-    transform: scale(1.1);
+  background: #ff4d6d;
+  color: white;
 }
 
 #noBtn {
-    background: #cccccc;
-    color: black;
-    position: relative;
+  background: #ccc;
+  margin-left: 20px;
+  position: relative;
 }
